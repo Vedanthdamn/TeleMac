@@ -5,7 +5,7 @@ TeleMac is a free teleprompter app that sits in your MacBook notch — invisible
 
 ## ⬇️ Download
 
-<a href="https://github.com/Vedanthdamn/TeleMac/releases/download/v1.0/TeleMac.dmg">
+<a href="https://github.com/Vedanthdamn/TeleMac/releases/download/v1.0/TeleMacFixed.dmg">
   <img src="https://img.shields.io/badge/Download-TeleMac_v1.0-brightgreen?style=for-the-badge&logo=apple" />
 </a>
 
@@ -21,7 +21,7 @@ TeleMac is a free teleprompter app that sits in your MacBook notch — invisible
 
 ## 🚀 How to Use
 
-1. Download and open TeleMac.dmg
+1. Download and open TeleMacFixed.dmg
 2. Right click the app → Open → Open Anyway
 3. Paste your script
 4. Click Start Teleprompter
