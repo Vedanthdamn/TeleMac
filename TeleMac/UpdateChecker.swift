@@ -2,7 +2,7 @@ import Foundation
 import AppKit
 
 class UpdateChecker {
-    static let currentVersion = "1.0"
+    static let currentVersion = "1.1"
     static let githubAPI = "https://api.github.com/repos/Vedanthdamn/TeleMac/releases/latest"
     static let downloadURL = "https://github.com/Vedanthdamn/TeleMac/releases/latest"
 
