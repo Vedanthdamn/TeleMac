@@ -11,6 +11,17 @@ TeleMac is a free teleprompter app that sits in your MacBook notch — invisible
 
 > Requires macOS 14.0+
 
+## ⚠️ First Time Opening
+
+macOS will say "damaged" because this app is not from the App Store. Fix in 2 seconds:
+
+1. Download the DMG and drag TeleMac to **Applications**
+2. Open Terminal and run:
+```
+xattr -cr /Applications/TeleMac.app
+```
+3. Open TeleMac normally ✅
+
 ## ✨ Features
 
 - 🎤 **Voice activated** — scrolls when you speak, pauses when you stop
@@ -23,10 +34,11 @@ TeleMac is a free teleprompter app that sits in your MacBook notch — invisible
 ## 🚀 How to Use
 
 1. Download and open TeleMacV1.1Fixed.dmg
-2. Right click the app → Open → Open Anyway
-3. Paste your script
-4. Click Start Teleprompter
-5. Start speaking — it scrolls automatically!
+2. Drag TeleMac to Applications
+3. Run `xattr -cr /Applications/TeleMac.app` in Terminal
+4. Open TeleMac
+5. Paste your script and click Start Teleprompter
+6. Start speaking — it scrolls automatically!
 
 ## ⌨️ Keyboard Shortcuts
 
@@ -35,12 +47,6 @@ TeleMac is a free teleprompter app that sits in your MacBook notch — invisible
 | Space | Freeze / Resume |
 | ↑ Up arrow | Scroll back |
 | ↓ Down arrow | Scroll forward |
-
-## ⚠️ Installation Note
-If macOS says the app is damaged:
-1. Open Terminal
-2. Run: `xattr -cr /Applications/TeleMac.app`
-3. Open the app again
 
 ## 🛠️ Built With
 - Swift + SwiftUI
